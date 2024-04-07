@@ -1,6 +1,8 @@
-# easyexcel-demo
+# easyexcel-template @Deprecated
 
-本demo主要是easyexcel的简单使用，并在基础上进行封装
+**本demo主要是easyexcel的简单使用，注重easyexcel填充的模块，并在基础上进行封装**
+
+>项目后期会被作废，将转移至easyexcel-helper
 
 项目是基于easyexcel的模板填充方式进行的，用户首先需要下载对应的模板，在模板中填充数据，
 然后在进行导入操作；导出操作即easyexcel中的读excel。
@@ -15,9 +17,9 @@
 
 其中controller主要提供/download/{type}、/download/file/{type}、/upload/file/{type}三个接口
 
-/download/{type}：下载模板
-/download/file/{type}：下载文件 (导出)
-/upload/file/{type}：上传文件（导入）
+/download/{type}：下载模板  
+/download/file/{type}：下载文件 (导出)  
+/upload/file/{type}：上传文件（导入）  
 
 util包下的ExcelUtil是对EasyExcel类的简单封装，提供一系列外部参数，组合成对应的对象；
 
